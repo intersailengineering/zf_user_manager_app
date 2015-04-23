@@ -21,7 +21,7 @@ gem 'puma'
 # ZapFlow Client
 gem 'zf_user_manager', path: "../zf_user_manager"
 # Intersail Authentication
-gem 'intersail_auth', :git => 'git@github.com:intersailengineering/intersail_auth.git', :branch => 'staging'
+#gem 'intersail_auth', :git => 'git@github.com:intersailengineering/intersail_auth.git', :branch => 'staging'
 
 group :development, :test do
   # Offers a better rails console
