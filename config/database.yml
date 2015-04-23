@@ -1,0 +1,16 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: zum_dev
+
+test:
+  <<: *default
+  database: zum_test
+
+production:
+  <<: *default
+  database: zum_prod
