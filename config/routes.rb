@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
+  # get 'user_manager/index'
 
-  # User manager Api routes
   mount ZfUserManager::Engine => '/'
-  # Authentication routes
-  #mount IntersailAuth::Engine => '/'
 
+  # root 'user_manager#index'
 end
