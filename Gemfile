@@ -43,8 +43,10 @@ group :development, :test do
   gem 'spring'
 end
 
-# ZapFlow Client
+# ZapFlow User Manager
 gem 'zf_user_manager', path: '../zf_user_manager'
+# ZapFlow Client
+gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'testing'
 
 
 
