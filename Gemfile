@@ -47,12 +47,12 @@ end
 gem 'zf_user_manager', path: '../zf_user_manager'
 # ZapFlow Client
 #@jtodoIMP find a way to put this as Zum dependency and not app
-gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'testing'
+#gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'f-net-integration'
+gem 'zf_client', path: '../zf-client'
 
 
-
-#gem 'bootstrap-sass'
 gem 'bootstrap-sass'
 gem 'pg'
+gem 'faker'
 
 
