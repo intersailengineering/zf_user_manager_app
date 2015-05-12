@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:intersailengineering/intersail_auth.git
-  revision: ee76bd0a4936fd7d23a2e887116903e78e3734b0
+  revision: b8e5053dee571a180e5894dc7653ddc119acb1cd
   branch: staging
   specs:
     intersail_auth (0.0.1)
