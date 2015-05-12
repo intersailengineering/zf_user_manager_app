@@ -11,9 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20150512095659) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "intersail_auth_users", force: :cascade do |t|
+    t.string   "cognome"
+    t.string   "nome"
+    t.string   "username"
+    t.integer  "urrs_id"
+    t.integer  "urrs_unit_id"
+    t.string   "urrs_unit_name"
+    t.integer  "urrs_role_id"
+    t.string   "urrs_role_name"
+    t.string   "z_auth_token"
+    t.string   "auth_hash"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
