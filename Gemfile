@@ -43,14 +43,12 @@ group :development, :test do
   gem 'spring'
 end
 
-# ZapFlow User Manager
-gem 'zf_user_manager', path: '../zf_user_manager'
 # ZapFlow Client
-#@jtodoIMP move this in zum engine
-#gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'f-net-integration'
-gem 'zf_client', path: '../zf_client'
+gem 'zf_client', :git => 'https://github.com/intersailengineering/zf-client.git', :branch => 'staging'
 # ZapFlow Authentication
 gem 'intersail_auth', :git => 'git@github.com:intersailengineering/intersail_auth.git', :branch => 'staging'
+# ZapFlow User Manager
+gem 'zf_user_manager', path: '../zf_user_manager'
 
 
 gem 'bootstrap-sass'
