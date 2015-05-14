@@ -23,6 +23,7 @@ html, body {
   position: relative;
   top: 0;
   left: 0;
+  z-index: 10;
   background-color: darkgrey;
 }
 
@@ -41,4 +42,5 @@ html, body {
   position: relative;
   margin: -80px 0px -80px 0px;
   padding: 80px 0px 80px 0px;
+  z-index:0;
 }
