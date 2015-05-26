@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/intersailengineering/zf-client.git
-  revision: 46a79e5f4d07de5187dcb93fca60f6621f326ca0
+  revision: abee28fd64476e2ab99b1cc9355d8b77ab01038f
   branch: staging
   specs:
     zf_client (0.0.1)
@@ -103,7 +103,7 @@ GEM
       i18n (~> 0.5)
     globalid (0.3.5)
       activesupport (>= 4.1.0)
-    httparty (0.13.4)
+    httparty (0.13.5)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.7.0)
@@ -119,7 +119,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.5)
+    mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.6.1)
     multi_json (1.11.0)
