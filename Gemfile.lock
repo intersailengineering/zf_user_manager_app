@@ -1,15 +1,4 @@
 GIT
-  remote: git@github.com:intersailengineering/intersail_auth.git
-  revision: b8e5053dee571a180e5894dc7653ddc119acb1cd
-  branch: staging
-  specs:
-    intersail_auth (0.0.1)
-      devise
-      httparty
-      pg
-      rails (~> 4.2.0)
-
-GIT
   remote: https://github.com/intersailengineering/zf-client.git
   revision: abee28fd64476e2ab99b1cc9355d8b77ab01038f
   branch: staging
@@ -18,6 +7,15 @@ GIT
       faker
       httparty
       rails (~> 4.2.1)
+
+PATH
+  remote: ../intersail_auth
+  specs:
+    intersail_auth (0.0.1)
+      devise
+      httparty
+      pg
+      rails (~> 4.2.0)
 
 PATH
   remote: ../zf_user_manager
