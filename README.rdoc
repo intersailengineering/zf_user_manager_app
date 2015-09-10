@@ -1,3 +1,2 @@
-=== ZUM Host application
-
-Questo progetto contiene un'applicazione host di esempio per utilizzare ZUM
+= Questo progetto è obsoleto!!!!
+= usare l'applicazione di test di zf_user_manager presente in test/dummy
